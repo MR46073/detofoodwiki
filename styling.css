@@ -1,0 +1,268 @@
+
+
+.global{
+    background-color:#e8e9eb;
+}
+
+.headder{
+    border: 1px #656566 solid;
+    background-color: #656566;
+    border-radius: 1em;
+    margin-bottom: 150px;
+    border-width: 0.1em;
+}
+
+.clr{
+    clear:both;
+}
+
+.logo{
+    padding-left: 3em;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.logo2{
+    float: right;
+    padding-right: 10em;
+    padding-left: 5em;
+}
+
+#heading{
+    color: crimson;
+    font-size: 6em;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#subheading{
+    color: black;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: 200;
+    word-spacing: 0.1em;
+    text-decoration: none;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 1.6em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.para1{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: italic;
+    text-align: left;
+    word-spacing: 0.1em;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 4em;
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+
+.popup-button{
+    display: block;
+    background-color: crimson;
+    color: white;
+    margin-top: 20px;
+    margin-left: 100em;
+    border: 0;
+    padding: 10px 13px;
+}
+
+.popup-wrapper{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup{
+    font-family: Arial;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 15% auto;
+    padding: 40px;
+    background: white;
+    position: relative;
+}
+
+.popup a{
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 6px 8px;
+}
+
+.popup-close{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+
+.border{
+    border: 5px #b3b3b3;
+    border-radius: 1em;
+    background-color: #b3b3b3;
+    padding: 30px;
+    margin: 50px;
+}
+
+.bf{
+    color: red;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.lc{
+    color: red;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.dn{
+    color: red;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.content{
+    color: black;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+.lnk2{
+    color: black;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 1em;
+    text-decoration: underline;
+}
+
+.lnk2:hover{
+    color: red;
+}
+
+.mfte{
+    color: black;
+    padding: 30px;
+    margin: 50px;
+}
+
+.heading2{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.content2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+.lnk{
+    color: black;
+    float: right;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-top: 2em;
+    text-decoration: none;
+}
+
+.footter{
+    border: 5px #656566 solid;
+    background-color: #656566;
+    color: black;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em;
+    
+}
+
+/* login/signup page styling start */
+.loghead{
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Dongle', sans-serif;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.logbody{
+    text-align: center;
+    padding-bottom: 10em;
+}
+
+.logbody label{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logbody input[type="email"]{
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.logbody input[type="password"]{
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.logbody input[type="submit"]{
+    text-align: center;
+    background-color: grey;
+    padding: 2px;
+    margin: 10px;
+    font-size: 20px;
+    width: 5%;
+}
+
+.logbody input[type="text"]{
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    font-size: 20px;
+    width: 20%;
+}
